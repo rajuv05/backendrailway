@@ -1,6 +1,37 @@
-target/
+# === Build output ===
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# === IDE settings ===
+/.idea/
+/.vscode/
+/*.iml
+/.project
+/.classpath
+/.settings/
+
+# === OS / temp files ===
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# === Environment files ===
+.env
+*.local
+
+# === Docker ===
 Dockerfile
 .dockerignore
+
+# === Git internals (never commit these) ===
 .git
 .gitignore
+
+# === Documentation ===
 *.md
